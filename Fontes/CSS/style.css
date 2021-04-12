@@ -285,11 +285,76 @@ header{
     justify-content: center;   
 }
 
+.contato-left img{
+    border-radius: 2rem;
+    height: 450px;
+}
 .contato-wrapper{
-    width: 100%;
-    height: 50vh;
-    background-color: #808080;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.contatos-right{
+    position: absolute;
+    
+}
+
+.input-group{
+    width: 450px;
+    height: 139px;  
+}
+
+#nome{  
+    margin-top: 65px;
+    margin-left: 23%;
+    width: 250px;
+}
+
+#email{
+    margin-top: 35px;
+    margin-left: 23%;
+    width: 250px;   
+}
+
+#msn{
+    margin-top: 10px;
+    margin-left: 23%;
+    width: 250px;
+    height: 90px;
+    border-radius: 2px;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.field-nome{
+    margin-top: -50px;
+    font-size: 20px;
+    font-family: var(--font-secundary);
+}
+
+.field-email{
+    margin-top: -50px;
+    font-size: 20px;
+    font-family: var(--font-secundary);
+}
+
+.field-msn{
+    margin-top: -140px;
+    font-size: 20px;
+    font-family: var(--font-secundary);
+}
+
+.btn button{
+    margin-left: 155px;
+    width: 150px;
+    height: 25px;
+    background-color: indigo;
+    border: none;
+    font-family: var(--font-secundary);
 }
